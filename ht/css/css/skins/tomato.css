@@ -17,7 +17,23 @@ p {
 .color_border {
   border-color: #FF6347; }
 
-.main_color_bg {
+svg {
+  height: 60px;
+  width: 60xp;
+  z-index: 100;
+  position: relative; }
+
+path {
+  fill: #222; }
+
+.toggle_mnu {
   background-color: #222; }
+
+a:hover {
+  color: #FF6347;
+  background-color: rgba(255, 255, 255, 0.05); }
+
+a {
+  letter-spacing: 5px; }
 
 /*# sourceMappingURL=tomato.css.map */
